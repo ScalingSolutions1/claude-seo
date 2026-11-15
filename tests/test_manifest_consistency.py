@@ -489,7 +489,7 @@ def test_seo_cockpit_installs_from_a_pinned_branch():
     """seo-cockpit is served from the seo-cockpit branch, pinned to a commit."""
     mp = json.loads(MARKETPLACE_JSON.read_text(encoding="utf-8"))
     entries = {e["name"]: e for e in mp["plugins"]}
-    assert mp["plugins"][0]["name"] == "claude-seo"
+    assert mp["plugins"][0]["name"] == "seo-suite"  # renamed in the ScalingSolutions fork: "claude-" names are reserved on claude.ai
     assert mp["plugins"][0]["source"] == "./"
     source = entries["seo-cockpit"]["source"]
     assert isinstance(source, dict), "seo-cockpit must not be a relative path inside the plugin root"

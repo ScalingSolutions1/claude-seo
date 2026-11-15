@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "claude-seo",
+      "name": "seo-suite",
       "source": "./",
       "description": "Comprehensive SEO analysis plugin for Claude Code. 29 sub-skills and 20 sub-agents, plus 11 optional extensions (5 connect MCP servers, 6 use API keys or local tools). v2.6.2 adds the Shopify and PostHog extensions, a trusted local proxy opt-in and 36 community pull requests; v2.6.1 fixed ten security reports; v2.6.0 added deterministic page, TLS and header, sitemap and JavaScript-gap checks ported from web-obs; v2.5.1 merged 39 community fixes and raised the urllib3 floor for three advisories; v2.5.0 fixed Claude Desktop installs and hardened Google sign-in, page rendering and agent prompts; v2.4.2 added the seo-cockpit companion and gcloud sign-in; v2.4.1 brought Google guidance current through 2026-09-28; v2.4.0 added /seo agentic for agent readiness (Lighthouse Agentic Browsing, WebMCP, AI agent access).",
       "author": {
