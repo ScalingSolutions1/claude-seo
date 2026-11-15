@@ -414,4 +414,5 @@ For prompt-guided AI content optimization, use `/seo flow optimize <url>`, FLOW'
 ## Extended references (ScalingSolutions additions)
 
 - `references/ai-answer-visibility.md`: measure AI-answer presence (prompt panel, KPIs, brand-in-answer rubric, "cited instead" sources) and recover AI-invented 404 URLs. Add "AI-answer presence (measured, dated)" to the report when run.
+- `references/ai-engine-playbook.md`: AEO/GEO actions per engine (AI Overviews, AI Mode, Gemini, ChatGPT, Perplexity, Copilot, Claude, Apple, others), controls recap, per-engine reporting table.
 - `references/offsite-entity-building.md`: entity fact sheet and consistency audit, profile bios and text twins, mention inventory, honest placement in cited sources, community participation, entity identifier blocks.
