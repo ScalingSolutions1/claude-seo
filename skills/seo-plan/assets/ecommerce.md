@@ -111,9 +111,9 @@
 ## Technical Considerations
 
 ### Pagination
-- Use rel="next"/rel="prev" or load-more
+- Paginate with crawlable `<a href>` links to each page (Google stopped using rel="next"/"prev" in 2019); load-more must also expose linked page URLs
 - Ensure all products are crawlable
-- Canonical to main category page
+- Each paginated page self-canonicalizes (do not canonical page 2+ to page 1)
 
 ### Faceted Navigation
 - Noindex filter combinations that create duplicate content

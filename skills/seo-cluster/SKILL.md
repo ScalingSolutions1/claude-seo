@@ -330,3 +330,8 @@ After cluster planning or execution completes, offer:
 ## FLOW Framework Integration
 
 For prompt-guided keyword research and gap analysis, use `/seo flow find [url|topic]`: FLOW's 5 find-stage prompts complement the SERP-overlap clustering methodology with structured discovery prompts.
+
+## Extended references (ScalingSolutions additions)
+
+- `references/keyword-discovery.md`: keyword research workflow (own GSC data first, autocomplete sweep, buyer-concern modifier families, beatable-SERP rule, opportunity table).
+- `references/list-clustering.md`: list mode for a pasted or uploaded keyword list (cleaning, cheap grouping then SERP verification, cluster-size rules, orphan bucket, mapping to existing URLs).
